@@ -1,0 +1,107 @@
+/* Font */
+
+.font-link {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.menu-light,
+.menu-light:hover {
+    color: #66694d;
+    text-decoration: none;
+}
+
+.menu-dark,
+.menu-dark:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-light.active {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+.menu-dark.active {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+/* Button */
+
+.button-dark {
+    background-color: #848c7c;
+    color: #FFFFFF;
+    padding: 5px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button-light {
+    background-color: #FFFFFF;
+    color: #848c7c;
+    padding: 5px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button-dark:hover {
+    transform: scale(0.9);
+    color: #ffffff;
+}
+
+.button-light:hover {
+    transform: scale(0.9);
+    color: #848c7c;
+}
+
+/* Carousel Chambre */
+
+.carousel-inner {
+    border: 1px white solid;
+}
+
+/* Not Found */
+
+.animSocialNetworkLogo {
+    padding: 1em;
+}
+
+.animSocialNetworkLogo:hover {
+    scale: 1.2;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 992px) {
+
+    .sizing-lg-screen {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("/public/img/ui/slide-marqueur-left.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        scale: 3 !important;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("/public/img/ui/slide-marqueur-right.png") !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        scale: 3 !important;
+    }
+
+    .carousel-control-prev {
+        transform: translateX(-120px) !important;
+        width: 30% !important;
+    }
+
+    .carousel-control-next {
+        transform: translateX(120px) !important;
+        width: 30% !important;
+    }
+}
