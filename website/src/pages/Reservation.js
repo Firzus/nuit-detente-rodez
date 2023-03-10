@@ -119,25 +119,13 @@ class Reservation extends Component {
 
                                     <div className='pt-2'>
                                         <div className='p-1 fs-3 text-center font-link' style={{ color: '#ffffff' }}>
-                                            ~ Tarif été ~
+                                            ~ Tarif ~
                                         </div>
                                         <div className='p-1 fs-6 text-center font-link' style={{ color: '#ffffff' }}>
                                             200€ la nuitée
                                         </div>
                                         <div className='p-1 fs-6 text-center font-link' style={{ color: '#ffffff' }}>
                                             180€ / nuit les 2 nuits ou plus
-                                        </div>
-                                    </div>
-
-                                    <div className='pt-2 pb-2'>
-                                        <div className='p-1 fs-3 text-center font-link' style={{ color: '#ffffff' }}>
-                                            ~ Tarif hiver ~
-                                        </div>
-                                        <div className='p-1 fs-6 text-center font-link' style={{ color: '#ffffff' }}>
-                                            180€ la nuitée
-                                        </div>
-                                        <div className='p-1 fs-6 text-center font-link' style={{ color: '#ffffff' }}>
-                                            160€ / nuit les 2 nuits ou plus
                                         </div>
                                     </div>
 
